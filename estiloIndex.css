@@ -1,0 +1,27 @@
+/***************Estilo de index***************/
+
+
+/*001*/
+nav {
+    margin-top: 30px;
+}
+
+/*IMAGEN PORTADA*/
+/*a=0 b=1 c=1 -> 011*/
+img[alt="Portada"] {
+    float: left;
+    margin-right: 20px;
+	margin-bottom: 30px;
+}
+
+/*ENLACES MAS INFORMACION*/
+/*012*/
+section[id="masInfo"] ul {
+    font-style: italic;
+}
+
+/*Breaking Bad color*/
+/*002*/
+p > em{
+    color: #177a59;
+}    

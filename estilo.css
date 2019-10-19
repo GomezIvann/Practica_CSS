@@ -1,0 +1,137 @@
+/*CUERPO: FONDO*/
+/*001*/
+body{
+    /*BACKGROUND IMG*/
+    background-image: url(multimedia/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: black;
+    background-origin: content-box;
+    /*TEXTO*/
+    color: #e6e6e6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: 40px;
+}
+
+/*ENCABEZADOS*/
+/*a=0 b=0 c=1 -> 001*/
+h2, h3, h4, h5, h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #177a59;
+}
+
+/*001*/
+h1{
+    font-family: "Marker Felt", Impact, fantasy;
+    font-size: 3em;
+    padding: 6px 10px;
+    text-transform: uppercase;
+    text-align:  center;
+    letter-spacing: 0.5em;
+    border: #177a59 7px solid;
+    border-radius: 30px;
+    background-color: lightgray;
+    color: #177a59;
+}
+
+/*001*/
+h2{
+    font-size: 1.80em;
+    border-bottom: 0.05em solid #177a59;
+}
+
+/*001*/
+h3{
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+/*001*/
+h4{
+    font-size: 1.3em;
+}
+
+/*001*/
+h5{
+    font-size: 1.20em;
+}
+
+/*001*/
+h6{
+    font-size: 1.1em;
+}
+
+/*MARGEN SECCIONES*/
+/*001*/
+section{
+    margin-top: 30px;
+}
+
+/*TABLAS DE CONTENIDOS*/
+/*a=0 b=0 c=2 -> 002*/
+nav li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.05em;
+    font-weight: bold;
+}
+
+/*FOOTER*/
+/*001*/
+footer{
+    margin-top: 25px;
+}
+
+/*TABLAS*/
+/*001*/
+table{
+    text-align: center;
+    background-color: darkgrey;
+    color: black;
+    border-radius: 2px;
+}
+
+/*002*/
+table th{
+    color: #177a59;
+}
+
+/*002*/
+table td, table th{
+    border: white 2px solid;
+}
+
+/*IMAGENES Y VIDEOS CON BORDES*/
+/*001*/
+img, video, table{
+    border: #177a59 6px groove;
+}
+
+/*LISTAS*/
+/*001*/
+ol, ul{
+    color: #177a59;
+}
+
+/*001*/
+ul{
+    list-style-type: square;
+}
+
+/*ENLACES*/
+/*a=0 b=1 c=1 -> 011*/
+a:link, a:visited{
+    color: cadetblue;
+}
+
+/*a=0 b=1 c=1 -> 011*/
+a:hover{
+    color: #177a59;
+}
+
+/*LOGO VALIDADOR (sin borde)*/
+/*011*/
+img[title="HTML5 Válido"]{
+    border:0;
+}  
