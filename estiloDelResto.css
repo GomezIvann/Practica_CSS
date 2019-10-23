@@ -3,19 +3,19 @@
 
 /*Para que no salgan en verde los parrafos de las listas, pero lo demas si*/
 /*012*/
-section[id = "personajesPrincipales"] p, section[id = "13cosas"] p{
+section[id = "curiosidades"] p {
     color: #e6e6e6; 
 }
 
 /*IMAGENES CON TEXTO*/
 /*001*/
-figure{
+figure {
     float: right;
 	margin: 20px;
 }
 
 /*002*/
-figure figcaption{
+figure figcaption {
     font-style: italic;
     color: darkgray;
     font-size: 0.9em;
@@ -23,24 +23,13 @@ figure figcaption{
 
 /*IMAGENES DE CURIOSIDADES*/
 /*012*/
-section[id="13cosas"] img, section[id="13cosas"] video{
+section[id="curiosidades"] img {
     position:relative;
     margin-top: 5px;
     margin-bottom: 20px;
 }
 
 /*002*/
-li > img{
+li > img {
     left: 35%;
 }
-
-/*002*/
-li > video, img[alt="NickFury"]{
-    left: 27%;
-}
-
-/*NOMBRE PERSONAJES*/
-/*a=0 b=1 c=2 -> 012*/
-section[id="personajesPrincipales"] strong{
-    color: #177a59;
-}  
