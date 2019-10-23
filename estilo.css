@@ -66,16 +66,39 @@ h6{
 
 /*MARGEN SECCIONES*/
 /*001*/
-section{
+section {
     margin-top: 30px;
 }
 
 /*TABLAS DE CONTENIDOS*/
-/*a=0 b=0 c=2 -> 002*/
-nav li{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.05em;
+/**/
+nav ul {
+    overflow: hidden;
+}
+/*a=0 b=0 c=3 -> 003*/
+nav ul li {
+    display: inline;
+    font-size: 1.10em;
     font-weight: bold;
+}
+
+/**/
+nav ul li a {
+    color: white;
+    text-align: center;
+    padding: 2px 6px;
+    text-decoration: none;
+    box-shadow: 2px 2px white;
+    transition: all 0.2s linear;
+    font-size: 18px;
+}
+
+/*028*/
+nav ul li a:hover, nav ul li a:focus {
+    transform: scale(1.04);
+    color:black;
+    background: white;
+    cursor: pointer;
 }
 
 /*FOOTER*/
@@ -123,15 +146,10 @@ ul{
     list-style-type: square;
 }
 
-/*ENLACES*/
-/*a=0 b=1 c=1 -> 011*/
-a:link, a:visited{
+/*Mas Informacion -> enlaces*/
+/*a= b= c= -> */
+a:link, a:visited {
     color: cadetblue;
-}
-
-/*a=0 b=1 c=1 -> 011*/
-a:hover{
-    color: #177a59;
 }
 
 /*LOGO VALIDADOR (sin borde)*/
