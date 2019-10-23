@@ -85,26 +85,29 @@ footer{
 
 /*TABLAS*/
 /*001*/
-table{
-    text-align: center;
-    background-color: darkgrey;
-    color: black;
-    border-radius: 2px;
+/** a=0 b=0 c=1**/
+table { 
+    border: 1px solid white; 
+	border-collapse: collapse;
+    margin: 15px 0; 
 }
 
-/*002*/
-table th{
-    color: #177a59;
+/** a=0 b=0 c=2**/
+td, th {
+    border: 1px solid black; padding: 4px 10px;
+    text-align: center; 
 }
 
-/*002*/
-table td, table th{
-    border: white 2px solid;
+/** a=0 b=0 c=1**/
+th { 
+    background: grey;
+	color: white;
+    font-weight: normal; 
 }
 
 /*IMAGENES Y VIDEOS CON BORDES*/
 /*001*/
-img, video, table{
+img, video {
     border: #177a59 6px groove;
 }
 
@@ -135,3 +138,36 @@ a:hover{
 img[title="HTML5 Válido"]{
     border:0;
 }  
+
+/*Para que no salgan en verde los parrafos de las listas, pero lo demas si*/
+/*012*/
+section[id = "curiosidades"] p {
+    color: #e6e6e6; 
+}
+
+/*IMAGENES CON TEXTO*/
+/*001*/
+figure {
+    float: right;
+	margin: 20px;
+}
+
+/*002*/
+figure figcaption {
+    font-style: italic;
+    color: darkgray;
+    font-size: 0.9em;
+}
+
+/*IMAGENES DE CURIOSIDADES*/
+/*012*/
+section[id="curiosidades"] img {
+    position:relative;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/*002*/
+li > img {
+    left: 35%;
+}
