@@ -10,8 +10,9 @@ body{
     /*TEXTO*/
     color: #e6e6e6;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
     font-size: 1em;
-    margin: 40px;
+    margin: 50px;
 }
 
 /*ENCABEZADOS*/
@@ -85,22 +86,22 @@ footer{
 
 /*TABLAS*/
 /*001*/
-/** a=0 b=0 c=1**/
 table { 
     border: 1px solid white; 
 	border-collapse: collapse;
     margin: 15px 0; 
 }
 
-/** a=0 b=0 c=2**/
+/*002*/
 td, th {
-    border: 1px solid black; padding: 4px 10px;
+    border: 1px solid white; 
+    padding: 4px 10px;
     text-align: center; 
 }
 
-/** a=0 b=0 c=1**/
+/*001*/
 th { 
-    background: grey;
+    background: #177a59;
 	color: white;
     font-weight: normal; 
 }
