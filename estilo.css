@@ -146,6 +146,11 @@ th {
 }
 
 /*001*/
+figure {
+    float: right;
+}
+
+/*001*/
 img, video {
     border: #a01515 6px groove;
 }
