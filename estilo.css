@@ -106,6 +106,17 @@ nav ul li a:hover, nav ul li a:focus {
     cursor: pointer;
 }
 
+.selected {
+    cursor: not-allowed; /*visual cursor*/
+    opacity: 0.7;
+}
+
+.selected > a {
+    color: white;
+    background: #a01515;
+    pointer-events: none; /*deshabilita la posibilidad de hacer click en él*/
+}
+
 /*FOOTER*/
 /*001*/
 footer{
