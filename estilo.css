@@ -1,6 +1,6 @@
 /*CUERPO: FONDO*/
 /*001*/
-body{
+body {
     /*BACKGROUND IMG*/
     background-image: url(multimedia/fondo.jpg);
     background-repeat: no-repeat;
@@ -13,6 +13,12 @@ body{
     text-align: justify;
     font-size: 1em;
     margin: 50px;
+    line-height: 1.2;
+}
+
+/*001*/
+main {
+	padding-top: 0.5em;
 }
 
 /*ENCABEZADOS*/
@@ -20,7 +26,7 @@ body{
 h2, h3, h4, h5, h6{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
-    color: #177a59;
+    color: #a01515;
 }
 
 /*001*/
@@ -30,17 +36,17 @@ h1{
     padding: 6px 10px;
     text-transform: uppercase;
     text-align:  center;
-    letter-spacing: 0.5em;
-    border: #177a59 7px solid;
+    letter-spacing: 0.4em;
+    border: #a01515 7px solid;
     border-radius: 30px;
     background-color: lightgray;
-    color: #177a59;
+    color: #a01515;
 }
 
 /*001*/
 h2{
     font-size: 1.80em;
-    border-bottom: 0.05em solid #177a59;
+    border-bottom: 0.05em solid #a01515;
 }
 
 /*001*/
@@ -64,31 +70,30 @@ h6{
     font-size: 1.1em;
 }
 
-/*MARGEN SECCIONES*/
-/*001*/
-section {
-    margin-top: 30px;
-}
-
 /*TABLAS DE CONTENIDOS*/
-/**/
+/*002*/
 nav ul {
     overflow: hidden;
 }
-/*a=0 b=0 c=3 -> 003*/
+
+/*003*/
 nav ul li {
-    display: inline;
+    float: left;
     font-size: 1.10em;
     font-weight: bold;
+    padding: 10px;
+    overflow: auto;
 }
 
-/**/
-nav ul li a {
-    color: white;
+/*003*/
+nav li a {
+    display: block;
+    color: black;
+    background: #e6e6e6;
     text-align: center;
     padding: 2px 6px;
     text-decoration: none;
-    box-shadow: 2px 2px white;
+    box-shadow: 2px 2px #a01515;
     transition: all 0.2s linear;
     font-size: 18px;
 }
@@ -96,15 +101,15 @@ nav ul li a {
 /*028*/
 nav ul li a:hover, nav ul li a:focus {
     transform: scale(1.04);
-    color:black;
-    background: white;
+    color:white;
+    background: #a01515;
     cursor: pointer;
 }
 
 /*FOOTER*/
 /*001*/
 footer{
-    margin-top: 25px;
+    margin-top: 40px;
 }
 
 /*TABLAS*/
@@ -124,7 +129,7 @@ td, th {
 
 /*001*/
 th { 
-    background: #177a59;
+    background: #a01515;
 	color: white;
     font-weight: normal; 
 }
@@ -132,24 +137,7 @@ th {
 /*IMAGENES Y VIDEOS CON BORDES*/
 /*001*/
 img, video {
-    border: #177a59 6px groove;
-}
-
-/*LISTAS*/
-/*001*/
-ol, ul{
-    color: #177a59;
-}
-
-/*001*/
-ul{
-    list-style-type: square;
-}
-
-/*Mas Informacion -> enlaces*/
-/*a= b= c= -> */
-a:link, a:visited {
-    color: cadetblue;
+    border: #a01515 6px groove;
 }
 
 /*LOGO VALIDADOR (sin borde)*/
@@ -174,7 +162,6 @@ figure {
 /*002*/
 figure figcaption {
     font-style: italic;
-    color: darkgray;
     font-size: 0.9em;
 }
 
