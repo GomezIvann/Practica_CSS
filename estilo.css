@@ -151,13 +151,20 @@ figure {
 }
 
 /*001*/
-img, video {
-    border: #a01515 6px groove;
+#trailer {
+    margin-top: 30px;
+    float: none;
+}
+
+ /*002*/
+figure figcaption {
+    font-style: italic;
+    color:grey;
 }
 
 /*001*/
-video {
-    margin-top: 10px;
+img, video {
+    border: #a01515 6px groove;
 }
 
 /*001*/
@@ -165,27 +172,37 @@ audio {
     margin-bottom: 10px;
 }
 
-/*LOGO VALIDADOR (sin borde)*/
+/*100*/
+#jamesGandolfini {
+    float: left;
+}
+
 /*011*/
 img[title="HTML5 Válido"] {
     border:0;
 }  
 
 /*Para que no salgan en rojo los parrafos de las listas en curiosidades*/
-/*014*/
-section[id = "curiosidades"] ol li p {
+/*103*/
+#curiosidades ol li p {
     color: #e6e6e6; 
 }
 
-/*012*/
-section[id="curiosidades"] img {
+/*101*/
+#curiosidades img {
     margin-top: 5px;
     margin-bottom: 20px;
 }
 
-/*022*/
-footer[id="masInfo"] a:link, footer[id="masInfo"] a:visited, footer[id="masInfo"] a:hover {
+/*111*/
+/*#masInfo == footer[id="masInfo"]*/
+#masInfo a:link, #masInfo a:visited, #masInfo a:hover {
     color: #e6e6e6;
+}
+
+/*111*/
+#masInfo a:hover {
+    color: #a01515;
 }
 
 /*002*/
