@@ -36,7 +36,7 @@ h1 {
     letter-spacing: 0.4em;
     border: #a01515 7px solid;
     border-radius: 30px;
-    background-color: lightgray;
+    background-color: #e6e6e6;
     color: #a01515;
 }
 
@@ -97,7 +97,7 @@ nav li a {
 /*014*/
 nav ul li a:hover, nav ul li a:focus {
     transform: scale(1.04);
-    color:white;
+    color: #e6e6e6;
     background: #a01515;
     cursor: pointer;
 }
@@ -110,7 +110,7 @@ nav ul li a:hover, nav ul li a:focus {
 
 /*011*/
 .selected > a {
-    color: white;
+    color: #e6e6e6;
     background: #a01515;
     /*deshabilita la posibilidad de hacer click en él (evento=none)*/
     pointer-events: none; 
