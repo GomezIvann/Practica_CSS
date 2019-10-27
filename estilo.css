@@ -106,24 +106,24 @@ nav ul li a:hover, nav ul li a:focus {
     cursor: pointer;
 }
 
+/*010*/
 .selected {
     cursor: not-allowed; /*visual cursor*/
     opacity: 0.7;
 }
 
+/*011*/
 .selected > a {
     color: white;
     background: #a01515;
     pointer-events: none; /*deshabilita la posibilidad de hacer click en él*/
 }
 
-/*FOOTER*/
 /*001*/
-footer{
+footer {
     margin-top: 40px;
 }
 
-/*TABLAS*/
 /*001*/
 table { 
     border: 1px solid white; 
@@ -131,7 +131,7 @@ table {
     margin: 15px 0; 
 }
 
-/*002*/
+/*001*/
 td, th {
     border: 1px solid white; 
     padding: 4px 10px;
@@ -145,46 +145,56 @@ th {
     font-weight: normal; 
 }
 
-/*IMAGENES Y VIDEOS CON BORDES*/
 /*001*/
 img, video {
     border: #a01515 6px groove;
 }
 
+/*001*/
+video {
+    margin-top: 10px;
+}
+
+/*001*/
+audio {
+    margin-bottom: 10px;
+}
+
 /*LOGO VALIDADOR (sin borde)*/
 /*011*/
-img[title="HTML5 Válido"]{
+img[title="HTML5 Válido"] {
     border:0;
 }  
 
-/*Para que no salgan en verde los parrafos de las listas, pero lo demas si*/
-/*012*/
-section[id = "curiosidades"] p {
+/*Para que no salgan en rojo los parrafos de las listas en curiosidades*/
+/*014*/
+section[id = "curiosidades"] ol li p {
     color: #e6e6e6; 
 }
 
-/*IMAGENES CON TEXTO*/
-/*001*/
-figure {
-    float: right;
-	margin: 20px;
-}
-
-/*002*/
-figure figcaption {
-    font-style: italic;
-    font-size: 0.9em;
-}
-
-/*IMAGENES DE CURIOSIDADES*/
 /*012*/
 section[id="curiosidades"] img {
-    position:relative;
+    position: center;
     margin-top: 5px;
     margin-bottom: 20px;
+}
+
+/*022*/
+footer[id="masInfo"] a:link, footer[id="masInfo"] a:visited, footer[id="masInfo"] a:hover {
+    color: #e6e6e6;
 }
 
 /*002*/
 li > img {
     left: 35%;
+}
+
+/*001*/
+ul, ol {
+    color: #a01515;
+}
+
+/*002*/
+p > strong {
+    color: #a01515;
 }
