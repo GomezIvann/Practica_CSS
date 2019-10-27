@@ -116,11 +116,12 @@ nav ul li a:hover, nav ul li a:focus {
 .selected > a {
     color: white;
     background: #a01515;
-    pointer-events: none; /*deshabilita la posibilidad de hacer click en él*/
+    /*deshabilita la posibilidad de hacer click en él (evento=none)*/
+    pointer-events: none; 
 }
 
 /*001*/
-footer {
+.validadores {
     margin-top: 40px;
 }
 
