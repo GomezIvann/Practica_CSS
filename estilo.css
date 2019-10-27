@@ -20,14 +20,14 @@ main {
 }
 
 /*001*/
-h2, h3, h4, h5, h6{
+h2, h3, h4, h5, h6 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     color: #a01515;
 }
 
 /*001*/
-h1{
+h1 {
     font-family: "Marker Felt", Impact, fantasy;
     font-size: 3em;
     padding: 6px 10px;
@@ -41,33 +41,32 @@ h1{
 }
 
 /*001*/
-h2{
+h2 {
     font-size: 1.80em;
     border-bottom: 0.05em solid #a01515;
 }
 
 /*001*/
-h3{
+h3 {
     font-style: italic;
     font-size: 1.5em;
 }
 
 /*001*/
-h4{
+h4 {
     font-size: 1.3em;
 }
 
 /*001*/
-h5{
-    font-size: 1.20em;
+h5 {
+    font-size: 1.2em;
 }
 
 /*001*/
-h6{
+h6 {
     font-size: 1.1em;
 }
 
-/*TABLAS DE CONTENIDOS*/
 /*002*/
 nav ul {
     overflow: hidden;
@@ -95,7 +94,7 @@ nav li a {
     font-size: 18px;
 }
 
-/*028*/
+/*014*/
 nav ul li a:hover, nav ul li a:focus {
     transform: scale(1.04);
     color:white;
@@ -117,7 +116,7 @@ nav ul li a:hover, nav ul li a:focus {
     pointer-events: none; 
 }
 
-/*001*/
+/*010*/
 .validadores {
     margin-top: 40px;
 }
@@ -148,13 +147,7 @@ figure {
     float: right;
 }
 
-/*001*/
-#trailer {
-    margin-top: 30px;
-    float: none;
-}
-
- /*002*/
+/*002*/
 figure figcaption {
     font-style: italic;
     color:grey;
@@ -168,6 +161,12 @@ img, video {
 /*001*/
 audio {
     margin-bottom: 10px;
+}
+
+/*100*/
+#trailer {
+    margin-top: 30px;
+    float: none;
 }
 
 /*100*/
@@ -192,9 +191,9 @@ img[title="HTML5 Válido"] {
     margin-bottom: 20px;
 }
 
-/*111*/
 /*#masInfo == footer[id="masInfo"]*/
-#masInfo a:link, #masInfo a:visited, #masInfo a:hover {
+/*111*/
+#masInfo a:link, #masInfo a:visited {
     color: #e6e6e6;
 }
 
@@ -203,17 +202,12 @@ img[title="HTML5 Válido"] {
     color: #a01515;
 }
 
-/*002*/
-li > img {
-    left: 35%;
-}
-
 /*001*/
 ul, ol {
     color: #a01515;
 }
 
-/*002*/
+/*001*/
 strong {
     color: #a01515;
 }
